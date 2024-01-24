@@ -1,0 +1,2347 @@
+/*
+    Lessons 1 - 04
+*/
+
+/* Assignment One */
+
+/* Any Element With Class Title */
+/* .title {
+} */
+
+/* Any Element with Id nav */
+/* #nav {
+} */
+
+/* Any div element */
+/* div {
+} */
+
+/* Any h2 element */
+/* h2 {
+} */
+
+
+/* Assignment Five */
+
+/* Valid */
+/* ._user-name {
+} */
+
+/* Valid */
+/* .-user-name {
+} */
+
+/* Not Valid */
+/* .1user-name {
+} */
+
+/* Not Valid */
+/* .@user-name {
+} */
+
+/* Not Valid */
+/* .user@name {
+} */
+
+/* Valid */
+/* ._user10name {
+} */
+
+/* Valid */
+/* .u {
+} */
+
+
+/* Assignment 6 */
+
+/* Bad */
+/* .USERNAME {
+} */
+
+/* Good */
+/* .UserName {
+} */
+
+/* Good */
+/* .user-name {
+} */
+
+/* Good */
+/* .userName {
+} */
+
+/* Bad */
+/* .usernameprofile {
+} */
+
+
+/*
+    Lessons 05 - 08
+*/
+
+/* Assignment One */
+
+/* div {
+    color: #fff;
+    width: 500px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: blueviolet;
+    background-color: rgb(138, 43, 226);
+    background-color: #8a2be2;
+    background-color: hsl(271, 76%, 50%);
+}
+
+.assign-1-shape-2 {
+    background-color: rgba(138, 43, 226, 50%)
+}
+
+.assign-1-shape-3 {
+    background-color: rgba(138, 43, 226, 10%)
+} */
+
+
+/* Assignment Two */
+
+/* div {
+    color: #fff;
+    width: 400px;
+    height: 400px;
+    background-image: url("/exercise/assets/img/css-assignment-5-8.png");
+}
+
+.assign-2-shape-1 {
+    background-repeat: no-repeat;
+}
+
+.assign-2-shape-2 {
+    background-repeat: repeat-y;
+}
+
+.assign-2-shape-3 {
+    background-repeat: repeat-x;
+}
+
+.assign-2-shape-4 {
+    background-repeat: repeat;
+} */
+
+
+/* Assignment Three */
+
+/* div {
+    color: #fff;
+    width: 400px;
+    height: 400px;
+    background-image: url("/exercise/assets/img/css-assignment-5-8.png");
+}
+
+.assign-3-shape-1 {
+    background-repeat: no-repeat;
+}
+
+.assign-3-shape-2 {
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.assign-3-shape-3 {
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.assign-3-shape-4 {
+    background-repeat: repeat;
+} */
+
+
+/* Assignment Four */
+
+/* div {
+    color: #fff;
+    width: 400px;
+    height: 400px;
+    background-color: #eee;
+    margin: 20px auto;
+    background-image: url("/exercise/assets/img/css-assignment-5-8.png");
+}
+
+.assign-4-shape-1 {
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.assign-4-shape-2 {
+    background-repeat: repeat-y;
+    background-position: right;
+    background-size: 80% 100%;
+}
+
+.assign-4-shape-3 {
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 100% 80%;
+}
+
+.assign-4-shape-4 {
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50%;
+} */
+
+
+/*
+    Lessons 09 - 12
+*/
+
+
+/* Assignment One */
+
+/* div {
+    margin: 0 20px;
+    display: inline-block;
+    background-color: #eee;
+    outline: 5px solid #000;
+    width: 100px;
+    height: 50px;
+}
+
+.shape-one {
+    border: 5px solid #f00;
+}
+
+.shape-two {
+    border: 5px solid;
+    border-color: #00f #0f0;
+}
+
+.shape-three {
+    border: 5px dashed;
+    border-color: #f00 #0f0 #00f #ff0;
+} */
+
+
+/* Assignment Two */
+
+/* div {
+    position: relative;
+    width: 400px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.element-1 {
+    border-left: 5px solid #f00;
+}
+
+.element-2 {
+    visibility: hidden;
+}
+
+.element-3 {
+    border-left: 5px solid #0f0;
+} */
+
+
+/*
+    Lessons 13 - 16
+*/
+
+
+/* Assignment One */
+
+/* .child span.title {
+    color: red;
+}
+
+.parent .title {
+    color: blue;
+}
+
+p, .title {
+    color: green;
+} */
+
+
+/* Assignment Two */
+
+/* div {
+    background-color: #a52a2a;
+    padding: 20px;
+    color: #fff;
+    width: fit-content;
+    max-width: 400px;
+    max-height: 20px;
+    margin: 10px 0;
+}
+
+.over-flow {
+    overflow: hidden;
+} */
+
+
+/*
+    Lessons 17 - 21
+*/
+
+/* Assignment One */
+
+/*
+h1 {
+    text-shadow: 1px 1px 0 red, 2px 2px 0 blue, 3px 3px 0 blueviolet;
+} */
+
+
+/* Assignment Two */
+
+/* .one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: lowercase;
+} */
+
+
+/* Assignment Three */
+
+/* div {
+    width: 400px;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.continue {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+
+/* Assignment Four */
+
+/* a {
+    display: block;
+    width: 100px;
+    margin: auto;
+    background-color: #009688;
+    border-bottom: 10px solid #00514a;
+    text-align: center;
+    padding: 14px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+} */
+
+
+/*
+    Lessons 22 - 26
+*/
+
+
+/* Assignment One */
+
+/* div {
+    padding: 20px;
+    border: 3px solid #f00;
+}
+
+p {
+    text-align: center;
+    background-color: #ddd;
+    padding: inherit;
+    border: inherit;
+} */
+
+
+/* Assignment Two */
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap'); */
+
+/* .open-sans {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: italic;
+}
+
+.cairo {
+    font-family: 'Cairo', sans-serif;
+}
+
+.Jomhuria {
+    font-family: 'Jomhuria', serif;
+} */
+
+
+/* Assignment Three */
+
+/* html {
+    font-size: 20px;
+}
+
+.one {
+    font-size: 2.5rem;
+}
+
+.two {
+    font-size: 2rem;
+}
+
+.three {
+    font-size: 1.5rem;
+} */
+
+
+/*
+    Lessons 27 - 29
+*/
+
+
+/* Assignment One */
+
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 800px;
+    margin: auto;
+    background-color: #eee;
+}
+
+.child {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin: 15px 7.5px;
+    background-color: #ddd;
+}
+
+.full-width {
+    width: calc(100% - 15px);
+}
+
+.box_one-third-size {
+    width: calc((100% - 45px) / 3);
+    /*
+        Content Width Is: 100%
+        6 Spaces  7.5px * 6 => 45px From Content Width  "There is no Horizontal Margin Collapse"
+        100% - 45px Available Space
+        3 Elements The Width Is: (100% - 45px) / 3
+    */
+}
+
+.box_half-size {
+    width: calc((100% - 30px) / 2);
+}
+
+.box_quarter-size {
+    width: calc((100% - 60px) / 4);
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* Assignment Two */
+
+/* div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #b3b3b3;
+    color: black;
+}
+
+.one {
+    background-color: rgb(179 179 179 / 0.1);
+}
+
+.two {
+    opacity: 0.1;
+} */
+
+
+/*
+    Lessons 30 - 33
+*/
+
+
+/* Assignment One */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.green {
+    background-color: #009688;
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+}
+
+.red {
+    background-color: #f44336;
+    z-index: 3;
+    top: 60px;
+    left: 60px;
+}
+
+.blue {
+    background-color: #03a9f4;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+}
+
+.black {
+    background-color: black;
+    z-index: 0;
+    top: 40px;
+    left: 20px;
+} */
+
+
+/* Assignment Two */
+
+/* div {
+    font-family:'Segoe UI';
+    width: 400px;
+    margin: 10% auto;
+    border: 3px solid;
+    border-color: #f44336 #03a9f4;
+    position: relative;
+    padding: 30px;
+    background-color: #eee;
+    line-height: 1.6;
+    text-align: center;
+}
+
+span {
+    color: #fff;
+    padding: 5px 20px;
+    background-color: #2196f3;
+    position: absolute;
+}
+
+.top-left,
+.bottom-left {
+    left: -6%;
+    border-right: 3px solid #f44336;
+}
+
+.top-right,
+.bottom-right {
+    right: -6%;
+    border-left: 3px solid #f44336;
+}
+
+.top-left,
+.top-right {
+    top: -14%;
+}
+
+.bottom-left,
+.bottom-right {
+    top: 88%;
+} */
+
+
+/* Assignment Three */
+
+/* .parent {
+    width: 400px;
+    margin: auto;
+    list-style: none;
+}
+
+.html, .css, .js {
+    background-color: #eee;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.html li, .css li, .js li {
+    background-color: #fff;
+    padding: 10px;
+    list-style-position: outside;
+    margin: 5px 0;
+}
+
+.js ul {
+    padding-left: 0;
+}
+
+.js li {
+    list-style-position: inside;
+} */
+
+
+/* Assignment Four */
+
+/* table {
+    width: 700px;
+    margin: auto;
+    background-color: #eee;
+    text-align: center;
+    border-spacing: 0;
+}
+
+table th {
+    background-color: #404040;
+    color: #fff;
+}
+
+th,
+td {
+    padding: 20px;
+    border: 1px solid #fff;
+}
+
+td .view,
+td .delete {
+    border: none;
+    color: #fff;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+td .view {
+    background-color: #03a9f4;
+    margin-right: 5px;
+}
+
+td .delete {
+    background-color: #f44336;
+} */
+
+
+/*
+    Lessons 34 - 37
+*/
+
+
+/* Assignment One */
+
+/* div {
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    margin: 20px auto;
+    background-color: #eee;
+}
+
+div:empty {
+    background-color: #f00;
+} */
+
+
+/* Assignment Two */
+
+/* div {
+    position: relative;
+    width: 300px;
+    background-color: #eee;
+    margin: auto;
+    padding: 15px;
+}
+
+div::first-letter {
+    position: absolute;
+    left: 0;
+    background-color: #f00;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+} */
+
+/* The first-letter did not have Position property So That
+if you want to move your first-letter without using any other
+element like span in your code, you can use "margin property" */
+
+/* div {
+    background-color: #d4d4d4;
+    padding: 20px 25px 20px 35px;
+    margin: auto;
+    width: fit-content;
+}
+
+div::first-letter {
+    background-color: #ff0000;
+    padding: 9px 7px;
+    color: #ffffff;
+    margin-left: -45px;
+    margin-top: -9px;
+} */
+
+
+/* Assignment Three */
+
+/* p {
+    width: 350px;
+    padding: 15px;
+    border-left: 3px solid #e91e63;
+    background-color: #eee;
+    margin: 10px auto;
+    position: relative;
+}
+
+p::after {
+    content: "";
+    position: absolute;
+    top: 31%;
+    left: -6%;
+    background-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent #e91e63 transparent transparent;
+}
+
+p::before {
+    content: attr(data-person);
+    text-align: center;
+    width: 80px;
+    background-color: #eee;
+    padding: 10px 0;
+    position: absolute;
+    left: -28%;
+    top: 13%;
+} */
+
+
+/* Assignment Four */
+
+/* p {
+    width: 350px;
+    padding: 15px;
+    border-right: 3px solid #f44336;
+    background-color: #eee;
+    margin: 10px auto;
+    counter-increment: members-counter;
+    position: relative;
+}
+
+p::before {
+    content: counter(members-counter);
+    color: #fff;
+    background-color: #f44336;
+    padding: 15px 20px;
+    position: absolute;
+    left: -12%;
+    top: 0;
+} */
+
+
+/*
+    Lessons 38 - 41
+*/
+
+
+/* Assignment One */
+
+/* div {
+    float: left;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    counter-increment: element-counter;
+    position: relative;
+    border: 2px solid #000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow:
+        -6px -6px 0 0 #e91e63,
+        6px 6px 0 0 #2196f3;
+}
+
+div::before {
+    content: counter(element-counter);
+    position: absolute;
+    top: -12px;
+    left: 42%;
+    color: #fff;
+    background-color: #000;
+    padding: 4px 8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+div::after {
+    content: "Element";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+} */
+
+
+/* Assignment Two**** */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: #efefef;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 20px -3px #000 inset;
+    border-radius: 10% 50% 10% 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+} */
+
+
+/* Assignment Three */
+
+/* * {
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.parent section {
+    display: inline-block;
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.parent section h2 {
+    color: #fff;
+    background-color: #03a9f4;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.parent section div {
+    font-size: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 150px;
+    margin-left: 13%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.parent .basic {
+    margin-right: 50px;
+}
+
+.parent .basic::after {
+    content: "";
+    height: 268px;
+    width: 1px;
+    background-color: #03a9f4;
+    position: absolute;
+    right: 51%;
+    top: 0;
+}
+
+.parent .basic::before {
+    content: "Or";
+    color: #fff;
+    background-color: #03a9f4;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    top: 46%;
+    right: 48%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+} */
+
+
+/*
+    Lessons 42 - 45
+*/
+
+
+/* Assignment One */
+
+/* .parent {
+    margin: 20% auto;
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f2f2f4;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.parent:hover {
+    margin: 15% auto;
+}
+
+.child {
+    width: 320px;
+    padding: 10px 0;
+    margin: 5% auto;
+    text-align: center;
+    background-color: #dededc;
+    transition: all 0.5s ease 0.5s;
+    -webkit-transition: all 0.5s ease 0.5s;
+    -moz-transition: all 0.5s ease 0.5s;
+    -ms-transition: all 0.5s ease 0.5s;
+    -o-transition: all 0.5s ease 0.5s;
+}
+
+.parent:hover .child {
+    margin: 15% auto;
+} */
+
+
+/* Assignment Two */
+
+div {
+    text-align: center;
+    background-color: #eee !important;
+    width: 400px;
+    margin: auto;
+    font-size: 20px !important;
+    border: none !important;
+    color: transparent !important;
+    /* font-size: 0; */
+    /* text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden; */
+}
+
+div::before {
+    content: "Elzero";
+    color: #000;
+}
+
+
+/* Assignment Three */
+
+/* :root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+}
+
+div {
+    color: var(--mainColor, #f00);
+    padding: var(--mainPadding, 10px);
+    margin: 10px;
+    border: 2px solid var(--mainColor, #000);
+} */
+
+
+/*
+    Lessons 46 - 53
+*/
+
+
+/* Assignment One */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff5722;
+    font-size: 20px;
+    border-left: 5px solid #03a9f4;
+    border-right: 5px solid #ff5722;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+} */
+
+
+/* Assignment Two */
+
+/* .parent {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.parent div {
+    color: #fff;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #f44336;
+} */
+
+
+/* Assignment Three */
+
+/* .parent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.parent div {
+    width: 180px;
+    height: 150px;
+    color: #fff;
+    background-color: #607d8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent .one,
+.parent .three {
+    height: 40px;
+
+}
+
+.parent .one {
+    order: 5;
+    align-self: flex-end;
+}
+
+.parent .two {
+    order: 4;
+}
+
+.parent .three {
+    order: 1;
+}
+
+.parent .four {
+    order: 2;
+}
+
+.parent .five {
+    order: 3;
+}
+
+.parent .six {
+    order: 0;
+} */
+
+
+/* Assignment Four */
+
+/* .parent {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+.parent div {
+    background-color: #009688;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.parent .one,
+.parent .three {
+    align-self: flex-end;
+    width: fit-content;
+    padding: 0 10px;
+}
+
+.parent .two {
+    width: 300px;
+} */
+
+
+/* Assignment Five */
+
+/* .parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+.parent div {
+    width: 90px;
+    height: 150px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent .one,
+.parent .three {
+    align-self: flex-end;
+}
+
+.parent .one {
+    background-color: #ff9800;
+}
+
+.parent .two {
+    background-color: #8bc34a;
+    order: 3;
+    margin-left: 13%;
+}
+
+.parent .three {
+    background-color: #795548;
+    order: 2;
+}
+
+.parent .four {
+    background-color: #673ab7;
+} */
+
+
+/* Assignment Six */
+
+/* * {
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #ddd;
+    --display-flex: flex;
+    --justify-content-around: space-around;
+    --padding-content-inside: 10px;
+}
+
+.page {
+    background-color: #eee;
+    width: 600px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+header,
+main,
+footer {
+    display: var(--display-flex);
+    justify-content: var(--justify-content-around);
+}
+
+header .logo,
+header nav,
+main section,
+main aside,
+footer {
+    display: var(--display-flex);
+    background-color: var(--background-color);
+    margin: 5px 0;
+}
+
+main section,
+main aside,
+footer {
+    padding: var(--padding-content-inside);
+}
+
+header .logo {
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    width: 500px;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 10px;
+}
+
+main section {
+    width: 390px;
+    height: 200px;
+}
+
+main aside {
+    width: 180px;
+}
+
+footer {
+    width: 585px;
+    margin: 5px auto;
+    justify-content: space-between;
+} */
+
+
+/*
+    Lessons 54 - 56
+*/
+
+
+/* Assignment One */
+
+/* div {
+    background-color: #eee;
+    width: 600px;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(
+        to right,
+        #f44336 20%,
+        #2196f3 20%,
+        #2196f3 40%,
+        #4caf50 40%,
+        #4caf50 60%,
+        #e91e63 60%,
+        #e91e63 80%,
+        #673ab7 80%);
+    border-image-slice: 1;
+}
+
+div::first-letter {
+    color: #f44336;
+} */
+
+
+/* Assignment Two */
+
+/* input {
+    background-color: #eee;
+    width: 600px;
+    padding: 20px 5px;
+    outline: none;
+    border: none;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-image: linear-gradient(
+        to right,
+        #f44336 50%,
+        #4caf50 50%
+    );
+    border-image-slice: 1;
+    margin: 10px;
+    caret-color: #f00;
+} */
+
+
+/*
+    Lessons 57 - 64
+*/
+
+
+/* Assignment One */
+
+/* .grid {
+    background-color: #ddd;
+    margin: auto;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 7fr;
+    gap: 15px;
+}
+
+.grid div {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #607d8b;
+    display: flex;
+    color: #fff;
+    counter-increment: members-counter;
+    position: relative;
+}
+
+.grid div::before {
+    content: "Element " counter(members-counter);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+} */
+
+
+/* Assignment Two */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 70vw 30vw;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas:
+        "header header"
+        "section aside"
+        "foot foot";
+}
+
+.layout header,
+.layout section,
+.layout aside,
+.layout footer {
+    color: #fff;
+    padding: 10px;
+}
+
+.layout header {
+    grid-area: header;
+    background-color: #03a9f4;
+}
+
+.layout header::before {
+    content: "Header";
+}
+
+.layout section {
+    grid-area: section;
+    background-color: #ff5722;
+}
+
+.layout section::before {
+    content: "Section";
+}
+
+.layout aside {
+    grid-area: aside;
+    background-color: #607d8b;
+}
+
+.layout aside::before {
+    content: "Aside";
+}
+
+.layout footer {
+    grid-area: foot;
+    background-color: #009688;
+}
+
+.layout footer::before {
+    content: "Footer";
+} */
+
+
+/* Assignment Three */
+
+/* .grid {
+    background-color: #ddd;
+    padding: 20px;
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 20px repeat(2, 365px) 20px;
+    grid-template-rows: 370px 20px;
+    gap: 10px;
+}
+
+.grid div {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #403f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* Assignment Four */
+
+/* .grid {
+    background-color: #ddd;
+    padding: 20px;
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 20px;
+}
+
+.grid div {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #2196f3;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    grid-row: 6;
+    grid-column: span 4;
+}
+
+.two {
+    grid-column: span 3;
+}
+
+.three {
+    grid-column: 4;
+}
+
+.four,
+.six,
+.seven {
+    grid-column: 1;
+}
+
+.five {
+    grid-column: 2/ 5;
+    grid-row: 3/ span 3;
+}
+
+.eight {
+    grid-row: 1;
+    grid-column: span 4;
+} */
+
+
+/* Assignment Five */
+
+/* .grid {
+    background-color: #ddd;
+    padding: 20px;
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 24px);
+    gap: 355px 20px;
+}
+
+.grid div {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #e91e63;
+    color: #fff;
+    text-align: center;
+} */
+
+
+/*
+    Lessons 65 - 67
+*/
+
+
+/* Assignment One */
+
+/* div {
+    width: 300px;
+    height: 200px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    color: #03a9f4;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+div::after {
+    content: "";
+    width: 300px;
+    height: 200px;
+    background-color: #03a9f4;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+}
+
+div::before {
+    content: "";
+    width: 300px;
+    height: 200px;
+    background-color: #e91e63;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+} */
+
+
+/* Assignment Two */
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 14% auto;
+    background-color: #eee;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: 10px solid #e91e63;
+    border-left-color: #fff;
+    /* background-image: linear-gradient(
+        to right,
+        #fff 20%,
+        #e91e63 20%); */
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    width: 220px;
+    height: 220px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: 10px solid #03a9f4;
+    border-right-color: #fff;
+    /* background-image: linear-gradient(
+        to right,
+        #03a9f4 80%,
+        #fff 80%); */
+}
+
+
+/* Assignment Three */
+
+/* div {
+    width: 200px;
+    height: 200px;
+    margin: 14% auto;
+    background-color: #eee;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    transition-duration: 0.5s;
+}
+
+div::before,
+div::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+div::before {
+    z-index: -1;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #e91e63;
+    border-left-color: #fff;
+}
+
+div::after {
+    z-index: -2;
+    width: 220px;
+    height: 220px;
+    border: 10px solid #03a9f4;
+    border-right-color: #fff;
+    transition-delay: 0.5s;
+}
+
+div:hover::before {
+    transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+}
+
+div:hover::after {
+    transform: rotate(-1turn);
+    -webkit-transform: rotate(-1turn);
+    -moz-transform: rotate(-1turn);
+    -ms-transform: rotate(-1turn);
+    -o-transform: rotate(-1turn);
+} */
+
+
+/*
+    Lessons 68 - 73
+*/
+
+
+/* Assignment One */
+
+/* h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff5722;
+    width: 150px;
+    height: 60px;
+    margin: 25% auto;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    background-color: #ff5722;
+    position: absolute;
+    z-index: -1;
+    width: 135px;
+    height: 60px;
+    transform: skew(30deg) rotate(20deg);
+    -webkit-transform: skew(30deg) rotate(20deg);
+    -moz-transform: skew(30deg) rotate(20deg);
+    -ms-transform: skew(30deg) rotate(20deg);
+    -o-transform: skew(30deg) rotate(20deg);
+}
+
+h1::after {
+    content: "";
+    background-color: #ff5722;
+    position: absolute;
+    z-index: -1;
+    width: 135px;
+    height: 60px;
+    transform: skew(-30deg) rotate(-20deg);
+    -webkit-transform: skew(-30deg) rotate(-20deg);
+    -moz-transform: skew(-30deg) rotate(-20deg);
+    -ms-transform: skew(-30deg) rotate(-20deg);
+    -o-transform: skew(-30deg) rotate(-20deg);
+} */
+
+
+/* Assignment Two */
+
+/* * {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #009688;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    width: 150px;
+    margin: 10% auto;
+    padding-left: 30px;
+    height: 80px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    border-right: 5px solid #fff;
+    width: 27px;
+    height: 80px;
+    left: -11%;
+    transform: skew(21deg);
+    -webkit-transform: skew(21deg);
+    -moz-transform: skew(21deg);
+    -ms-transform: skew(21deg);
+    -o-transform: skew(21deg);
+} */
+
+
+/* Assignment Three */
+
+.class {
+    /*transform: scaleX(3), skewY(0.3), skewX(0), scaleY(3), translateX(20), translateY(100);*/
+    -webkit-transform: matrix(3, 0.2679, 0, 3, 20, 100);
+    -moz-transform: matrix(3, 0.2679, 0, 3, 20, 100);
+    -ms-transform: matrix(3, 0.2679, 0, 3, 20, 100);
+    -o-transform: matrix(3, 0.2679, 0, 3, 20, 100);
+    transform: matrix(3, 0.2679, 0, 3, 20, 100);
+}
+
+
+/* Assignment Four */
+
+/* div {
+    background-color: #607d8b;
+    width: 200px;
+    height: 200px;
+    margin: 20% auto;
+    border-bottom: 3px solid #000;
+    position: relative;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    top: -35.2%;
+    left: 14.5%;
+    width: 137px;
+    height: 136px;
+    border-bottom: 5px solid #fff;
+    border-right: 5px solid #fff;
+    background-color: #000;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+div::after {
+    content: "Elzero";
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+} */
+
+
+/* Assignment Five */
+
+/* div {
+    width: 200px;
+    height: 200px;
+    margin: 20% auto;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform 1s;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+div:hover {
+    transform: rotate3d(0, 1, 0, 180deg);
+    -webkit-transform: rotate3d(0, 1, 0, 180deg);
+    -moz-transform: rotate3d(0, 1, 0, 180deg);
+    -ms-transform: rotate3d(0, 1, 0, 180deg);
+    -o-transform: rotate3d(0, 1, 0, 180deg);
+}
+
+div::before,
+div::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-backface-visibility: hidden;
+}
+
+div::before {
+    content: "Front";
+    background-color: #fa3664;
+}
+
+div::after {
+    content: "Back";
+    background-color: #03a9f4;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+} */
+
+
+/*
+    Lessons 74 - 77
+*/
+
+
+/* Assignment One */
+
+/* body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ea1a67;
+    border-top-color: transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #1493de;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    left: -25px;
+    top: -25px;
+    width: 90px;
+    height: 90px;
+    border: 5px solid #fca400;
+    border-left-color: transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+div:hover {
+    animation-play-state: paused;
+}
+
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+    to {
+        transform: rotate(1turn);
+        -webkit-transform: rotate(1turn);
+        -moz-transform: rotate(1turn);
+        -ms-transform: rotate(1turn);
+        -o-transform: rotate(1turn);
+}
+} */
+
+
+/* Assignment Two */
+
+/* body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 8px solid #1493de;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    left: -18px;
+    top: -18px;
+    width: 70px;
+    height: 70px;
+    border: 8px solid #fca400;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation-duration: 2s;
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    left: -28px;
+    top: -28px;
+    width: 90px;
+    height: 90px;
+    border: 8px solid #000;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation-duration: 3s;
+}
+
+div:hover,
+div:hover::after,
+div:hover::before {
+    animation-name: loading;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(1turn);
+        -webkit-transform: rotate(1turn);
+        -moz-transform: rotate(1turn);
+        -ms-transform: rotate(1turn);
+        -o-transform: rotate(1turn);
+}
+} */
+
+
+/* Assignment Three */
+
+/* body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+span {
+    background-color: #eee;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #000;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    animation-name: loading;
+    animation-duration: 1s;
+}
+
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform:;
+        -moz-transform:;
+        -ms-transform:;
+        -o-transform:;
+}
+    to {
+        transform: rotate(1turn);
+        -webkit-transform:;
+        -moz-transform:;
+        -ms-transform:;
+        -o-transform:;
+}
+} */
+
+
+/*
+    Lessons 78 - 82
+*/
+
+
+/* Assignment One */
+
+/* div.main.red {
+    color: #f00;
+} */
+
+
+/* Assignment Two */
+
+/* .parent .child:nth-child(2) {
+    color: #f00;
+} */
+
+
+/* Assignment Three */
+
+/* .parent:nth-of-type(2) .baby {
+    color: #f00;
+} */
+
+
+/* Assignment Four */
+
+/* div[title]:not(.no-need):not(.parent [title]) {
+    color: #f00;
+} */
+
+
+/* Assignment Five */
+
+/* div:not(.no-need) div[title]:last-child:not(.no-need) {
+    color: #f00;
+} */
+
+
+/* Assignment Six */
+
+/* div:not(.no-need) div:nth-last-of-type(2) {
+    color: #f00;
+} */
+
+
+/* Assignment Seven */
+
+/* div:not(.no-need, .no-need-2) h3 + div:not(.no-need):nth-last-child(2) {
+    color: #f00;
+} */
+
+/* div:not(.no-need, .no-need-2):first-of-type div:nth-last-child(2) {
+    color: #f00;
+} */
+
+
+/* Assignment Eight */
+
+/* div :not(:nth-child(1)):not(:last-child):not(h3) {
+    color: #f00;
+} */
+
+
+/*
+    Lessons 83 - 85
+*/
+
+
+/* Assignment One */
+
+/* @media print {
+    div {
+        font-size: 40px;
+    }
+} */
+
+
+/* Assignment Two */
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@counter-style custom-style {
+    system: fixed;
+    symbols: "One" "Two" "Three" "Four";
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+
+.parent .child {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #eee;
+    flex-basis: 23%;
+    padding: 20px 0;
+    counter-increment: members-counter;
+}
+
+.parent .child h3 {
+    color: #009688;
+    margin-bottom: 5px;
+}
+
+.parent .child h3::after {
+    content: counter(members-counter, custom-style);
+}
+
+@media (max-width: 992px) {
+    .parent .child {
+        flex-basis: 48%;
+        margin-bottom: 2%;
+    }
+    .parent .child h3 {
+        color: #f00;
+    }
+}
+
+@media (max-width: 767px) {
+    .parent .child {
+        flex-basis: 98%;
+        margin: 1%;
+    }
+    .parent .child h3 {
+        color: #000;
+    }
+} */
+
+
+/* Assignment Three */
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@counter-style custom-style {
+    system: fixed;
+    symbols: "One" "Two" "Three" "Four";
+}
+
+.parent {
+    margin: 5% 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 80px);
+    gap: 20px;
+    grid-template-areas:
+    "one one"
+    "two three"
+    "four four";
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.parent .child {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    counter-increment: members-counter;
+}
+
+.parent .child h3 {
+    color: #009688;
+    margin-bottom: 5px;
+}
+
+.parent .child h3::after {
+    content: counter(members-counter, custom-style);
+}
+
+@media (max-width: 992px) {
+    .parent {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 80px);
+        grid-template-areas:
+        "one one one"
+        "two three four";
+    }
+    .parent .child h3 {
+        color: #f00;
+    }
+}
+
+@media (max-width: 767px) {
+    .parent {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 80px);
+        grid-template-areas:
+        "one"
+        "two"
+        "three"
+        "four";
+    }
+    .parent .child h3 {
+        color: #000;
+    }
+} */
+
+
+/*
+    Lessons 86 - 88
+*/
+
+
+/* Assignment One */
+
+/* See myFrameWork CSS file... */
+
+
+/* Assignment Two */
+
+/* See myFrameWork CSS file... */
