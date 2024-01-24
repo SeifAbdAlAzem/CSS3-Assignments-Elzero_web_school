@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the Solution for the CSS3 Assignment for the Elzero Web School website.
+This is the Solution for the CSS3 Assignments for the Elzero Web School website.
 
 ## Used Technologies
 
